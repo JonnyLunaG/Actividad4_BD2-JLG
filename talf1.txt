@@ -1,0 +1,38 @@
+
+Símbolo: En el contexto de los lenguajes y gramáticas formales, un símbolo es la unidad básica que se utiliza para construir palabras y cadenas en un lenguaje. Puede ser cualquier elemento individual, como una letra, número o un carácter especial. Los símbolos pueden representar tanto elementos concretos como abstractos, y son la base para la comunicación en cualquier lenguaje.
+
+Alfabeto: Un alfabeto es un conjunto finito de símbolos utilizados en un lenguaje. Representa el conjunto de símbolos que son permitidos y reconocidos en ese lenguaje. Por ejemplo, el alfabeto del lenguaje español está compuesto por las letras del abecedario, los números y otros caracteres especiales como signos de puntuación.
+
+Palabra: En el contexto de los lenguajes formales, una palabra es una secuencia finita de símbolos tomados de un alfabeto. Las palabras son las unidades básicas que forman parte del vocabulario de un lenguaje. Por ejemplo, en el lenguaje español, "casa", "perro" y "correr" son palabras.
+
+Cadena: Una cadena es una secuencia finita de símbolos tomados de un alfabeto. Puede estar formada por palabras o por una combinación de palabras y símbolos. Las cadenas son utilizadas para construir frases y expresiones más complejas en un lenguaje. Por ejemplo, la cadena "el gato come pescado" es una combinación de palabras en el lenguaje español.
+
+Operaciones con palabras: Las operaciones con palabras son manipulaciones que se pueden realizar sobre las palabras en un lenguaje. Algunas operaciones comunes incluyen la concatenación, la potencia y la reflexión.
+
+La concatenación es la operación de unir dos palabras para formar una nueva palabra. Por ejemplo, si tenemos las palabras "bueno" y "día", la concatenación de ambas sería "bueno día".
+
+La potencia es la repetición de una palabra varias veces. Por ejemplo, si tenemos la palabra "hola", la potencia cuadrada de esa palabra sería "hola hola".
+
+La reflexión es la operación de invertir el orden de los símbolos en una palabra. Por ejemplo, si tenemos la palabra "casa", la reflexión de esa palabra sería "asac".
+
+Lenguaje: Un lenguaje es un conjunto de palabras y cadenas que siguen reglas específicas y son reconocibles por un sistema de comunicación. Los lenguajes pueden ser naturales, como el español o el inglés, o formales, como los lenguajes de programación. Los lenguajes formales son diseñados con un propósito específico y se utilizan en campos como la programación de computadoras y el análisis de lenguaje natural.
+
+Gramática: Una gramática es un conjunto de reglas que especifica la estructura y formación de las palabras y cadenas en un lenguaje. Define qué combinaciones de símbolos son consideradas válidas y cómo se pueden combinar para formar estructuras más complejas. Las gramáticas formales son utilizadas para describir y analizar los lenguajes formales.
+
+Reglas de producción: Las reglas de producción son las reglas que definen cómo se pueden derivar nuevas palabras o cadenas a partir de símbolos existentes en una gramática. Estas reglas establecen las transformaciones permitidas en el lenguaje. Las reglas de producción se componen de un símbolo no terminal, que puede ser reemplazado por una secuencia de símbolos terminales y no terminales. Por ejemplo, en una gramática que describe la estructura de una oración, una regla de producción podría ser "Oración -> Sujeto Verbo Objeto", lo que significa que una oración puede ser formada por un sujeto, un verbo y un objeto.
+
+Jerarquía de Chomsky: La jerarquía de Chomsky es una clasificación de las gramáticas formales propuesta por el lingüista Noam Chomsky. Esta clasificación divide las gramáticas en cuatro tipos, organizados en orden creciente de poder expresivo:
+
+Tipo 3: Gramáticas regulares, también conocidas como gramáticas finitas o de contexto libre. Estas gramáticas son las más simples y describen los lenguajes regulares, que pueden ser reconocidos por autómatas finitos, como las expresiones regulares.
+
+Tipo 2: Gramáticas libres de contexto. Estas gramáticas son más expresivas y pueden describir lenguajes más complejos. Los lenguajes libres de contexto pueden ser reconocidos por máquinas de Turing no deterministas.
+
+Tipo 1: Gramáticas sensibles al contexto. Estas gramáticas tienen reglas de producción más restrictivas y describen lenguajes más poderosos. Los lenguajes sensibles al contexto pueden ser reconocidos por máquinas de Turing lineales.
+
+Tipo 0: Gramáticas recursivamente enumerables. Estas gramáticas son las más generales y pueden describir cualquier lenguaje reconocible por una máquina de Turing. Los lenguajes recursivamente enumerables son los más poderosos de la jerarquía de Chomsky.
+
+Árboles de derivación: Los árboles de derivación son estructuras gráficas que representan las diferentes etapas de derivación de una palabra o cadena en una gramática. Cada nodo del árbol representa un símbolo y las ramas representan las reglas de producción aplicadas en cada etapa de la derivación. Los árboles de derivación ayudan a visualizar cómo se generan las cadenas a partir de las reglas de producción, y son utilizados en el análisis sintáctico y en la comprensión de la estructura de un lenguaje.
+
+Expresión regular: Una expresión regular es una secuencia de caracteres que define un patrón de búsqueda en un texto. Las expresiones regulares proporcionan una forma concisa y flexible de representar patrones y realizar operaciones de búsqueda y manipulación de cadenas de texto. Se utilizan ampliamente en el procesamiento de lenguaje natural, en la validación de datos y en la búsqueda de información.
+
+Álgebra de expresiones regulares: El álgebra de expresiones regulares es una notación y conjunto de reglas que permiten manipular y combinar expresiones regulares de manera algebraica. Proporciona operadores para la unión, concatenación, repetición y otras operaciones sobre expresiones regulares. El álgebra de expresiones regulares permite simplificary representar de manera compacta los patrones de búsqueda en expresiones regulares, facilitando su manipulación y análisis.
